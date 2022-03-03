@@ -5,44 +5,39 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!--font awesome and google fonts-->
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Irish Counties Quiz</title>
     </head>
 
-    <body>
-        <hi class="heading">
-            <img class="" src="" alt="">Irish Counties
-        </hi>
+    <body> 
+        <div class="logo">
         <div class="game-area">
-
-            <div class="score-area">
-                <p class="scores">User Score<span id="user-score">0</span></p>
-                <p class="scores">Total Score<span id="total-score">0</span></p>
+            <div class="score=area">
+                <span id="player-score">0</span>
+            <span> / </span>
+                <span id="total-score">0</span>
             </div>
-
-            <div class="question-area" id="question">
-                <div id="question-text">
-                </div>
-                <div class="choice-area">
-                    <button class="btn btn-option" id="True">Agree</button>
-                    <button class="btn btn-option" id="False">Disagree</button>
+            <div class="content" id="question-area">
+                <div id="question-"></div>
+                <div class="options">
+                    <button class="btn btn-option" id="True">True</button>
+                    <button class="btn btn-option" id="False">False</button>
                 </div>
             </div>
             <div class="controls-area">
-                <button class="btn btn-restart" id="restart">Restart</i>
-                </button>
-                <button class="btn btn-previous" id="previous">Previous
-                </button>
-                <button class="btn btn-next" id="next">Next
-                </button>
-                <button class="btn btn-submit" id="submit">Submit
-                </button>
+                <button class="btn btn-restart" id="restart">Restart</button>
+                <button class="btn btn-prev" id="prev">Prev</button>
+                <button class="btn btn-next" id="next">Next</button>
+                <button class="btn btn-submit" id="submit">Submit</button>
             </div>
         </div>
-        <script src="script.js"></script>
-    </body>
-
+        <script src="assets/js/script.js"></script>
+     </body>
+     
 </html>

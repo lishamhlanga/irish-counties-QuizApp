@@ -1,0 +1,68 @@
+/* auto marging and auto padding removed */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* flexbox  */
+body {
+    background color: blue;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .game-area {
+    width: 80vw;
+    max-width: 80%;
+    background-color: gold;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+ }
+ 
+ .score-area {
+    font-size: large;
+    font-weight: bold;
+ }
+  
+ #player-score {
+    color: #gold;
+ }
+  
+ #total-score {
+    color: #brown
+ }
+ 
+ focus stand out from the rest of the buttons.
+ .btn {
+    font-size: large;
+    font-weight: bold;
+    background: gold;
+    border-radius: 4px;
+    padding: 10px;
+    color: beige;
+    margin: 6px;
+    cursor: pointer;
+ }
+ .options{
+    padding: 10px;
+    order: 3;
+ }
+  
+ .controls-area{
+    padding: 10px;
+    order: 4;
+ }
+ /*  
+ .hide {
+    display: none;
+ }
+ */
