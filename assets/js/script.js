@@ -22,8 +22,8 @@ let app = {
       answer: 2
     },
     {
-      que: 'Cork belong to which Province',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
+      que: 'Cork belongs to which Province',
+      ansSelect: ['Munster', 'Leinster', 'Connacht', 'Ulster'],
       answer: 1
     },
     {
@@ -32,74 +32,59 @@ let app = {
       answer: 4
     },
     {
-      que: 'Complete the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 3
+      que: 'Select the odd one out from these counties',
+      ansSelect: ['Buncrana', 'Dublin', 'Kerry', 'Waterford'],
+      answer: 1
     },
     {
       que: 'Find the sentence .... is a big county',
       ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 1
-    },
-    {
-      que: 'Solve the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
       answer: 2
     },
     {
-      que: 'Multiply  the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
+      que: 'There are ....traditional provinces in Ireland',
+      ansSelect: ['30', '18', '32', '36'],
       answer: 3
     },
     {
-      que: 'Remove the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
+      que: 'Counties are divided into provinces , Dublin belongs to ....',
+      ansSelect: ['Leinster', 'Munster', 'Connacht', 'Ulster'],
       answer: 1
     },
     {
-      que: 'Decide the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 3
-    },
-    {
-      que: 'Complete the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
+      que: 'Finish the sentence .... is a county',
+      ansSelect: ['Sword', 'Meath', 'Clomany', 'Bandon'],
       answer: 2
     },
     {
-      que: 'Complete the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
+      que: 'Carlow is part of which province',
+      ansSelect: ['Munster', 'Leinster', 'Ulster', 'Connacht'],
       answer: 2
     },
     {
-      que: 'Complete the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
+      que: 'Complete the sentence .... is a county',
+      ansSelect: ['Blackrock', 'Sligo', 'Tramore', 'Brandon'],
+      answer: 2
+    },
+    {
+      que: 'There are .... counties in Ireland',
+      ansSelect: ['29', '26', '32', '20'],
+      answer: 2
+    },
+    {
+      que: 'Complete the sentence .... is a county',
+      ansSelect: ['Wicklow', 'Rosslare', 'Greencastle', 'Galaway'],
+      answer: 4
+    },
+    {
+      que: 'Clare Cork Limerick Donegal are all counties ',
+      ansSelect: ['Yes', 'No', 'Maybe', 'Not Sure'],
       answer: 1
     },
     {
-      que: 'Complete the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 3
-    },
-    {
-      que: 'Complete the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 1
-    },
-    {
-      que: 'Complete the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 3
-    },
-    {
-      que: 'Which is the odd one out...',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 2
-    },
-    {
-      que: 'Which is the odd one out',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 2
+      que: 'Which is the odd one out , not a county',
+      ansSelect: ['Kilkenny', 'Cavan', 'Tipperary', 'Brandon'],
+      answer: 4
     },
 
   ],
