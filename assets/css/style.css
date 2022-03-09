@@ -38,8 +38,18 @@ body {
    border-radius: 6px;
    padding: 1.5%;
    }
-
-   
+/* -----Game question area , background colur and float left  */
+   game-area .question{
+      min-height: 50px;
+      background-color: #064e4e;
+      border-radius: 8px;
+      color: white;
+      padding: 10px 1px;
+      float: left;
+      width: 100%;
+      font-size: 25px;
+  }
+  
 /*  
  .hide {
     display: none;
