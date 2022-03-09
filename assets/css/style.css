@@ -123,6 +123,17 @@ body {
    border: none;
    color:white;
    border-radius: 6px;
+}
+/* -----game restart button */
+.game-area .restart button {
+   font-size: 20px;
+   text-align: center;
+   line-height: 20px;
+   color: #f30c0c;
+   border-radius: 8px;
+   display: inline;
+ }
+ 
 /*  
  .hide {
     display: none;
