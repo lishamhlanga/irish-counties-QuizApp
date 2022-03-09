@@ -163,3 +163,13 @@ let app = {
     scoreArea.innerHTML = this.score + "/" + this.questions.length;
   }
 }
+// window load when the app starts
+
+window.load = app.load();
+
+// fuction called when an option is clicked
+
+function button(ele) {
+  app.check(ele);
+  app.preventClick();
+}
