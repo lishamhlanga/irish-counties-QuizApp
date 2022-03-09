@@ -103,3 +103,23 @@ let app = {
   
     ],
     index: 0,
+
+    //take index and select the question of that UI and load it up
+    
+  load: function() {
+    if (this.index <= this.questions.length - 1) {
+      quizbox.innerHTML = this.index + 1 + ". " + this.questions[this.index].q;
+      opt1.innerHTML = this.questions[this.index].options[0];
+      opt2.innerHTML = this.questions[this.index].options[1];
+      opt3.innerHTML = this.questions[this.index].options[2];
+      opt4.innerHTML = this.questions[this.index].options[3];
+    } else {
+      quizbox.innerHTML = "Quiz Completed! Thank you";
+      ul.style.display = "none";
+      nextButton.style.display = "none";
+    }
+  },
+  next: function() {
+    this.index++;
+    this.load();
+  },
