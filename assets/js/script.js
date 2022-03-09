@@ -105,7 +105,6 @@ let app = {
     index: 0,
 
     //take index and select the question of that UI and load it up
-
   load: function() {
     if (this.index <= this.questions.length - 1) {
       quizbox.innerHTML = this.index + 1 + ". " + this.questions[this.index].q;
@@ -125,7 +124,6 @@ let app = {
   },
 
   //apply green background if correct
-
   check: function(ele) {
     let id = ele.id.split('');
     if (id[id.length - 1] == this.questions[this.index].answer) {
@@ -140,7 +138,6 @@ let app = {
   },
 
   //look at all the children and prevent click
-
   preventClick: function() {
     for (let i = 0; i < ul.children.length; i++) {
       ul.children[i].style.pointerEvents = "none";
@@ -154,22 +151,25 @@ let app = {
   },
   
   //initial score is 0 and when answered correct increase score by 1
-
   score: 0,
 
   //display the score relative to the total number questions
-
   scoreArea: function() {
     scoreArea.innerHTML = this.score + "/" + this.questions.length;
   }
 }
-// window load when the app starts
 
+// window load when the app starts
 window.load = app.load();
 
 // fuction called when an option is clicked
-
 function button(ele) {
   app.check(ele);
   app.preventClick();
 }
+
+//call upon the index and load next question
+function next() {
+    app.next();
+    app.allowClick();
+  }
