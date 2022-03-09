@@ -1,67 +1,46 @@
+
+
+* {
+   box-sizing: border-box;
+}
 /* auto marging and auto padding removed */
-*{
-    margin: 0;
-    padding: 0;
+/* --------- Global style */
+/* body font and background color */
+body {
+   background-color: white;
+   font-family: "Raleway", sans-serif;
+   color: #445361;
+   margin:0;
+   padding:0;
+   text-align: center;
+}
+/*----- Heading */
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+/* logo dimensions  */
+.logo {
+   height: 40px;
+   padding-right: 5px;
 }
 
-/* flexbox  */
-body {
-    background color: blue;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- 
- .game-area {
-    width: 80vw;
-    max-width: 80%;
-    background-color: gold;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    text-align: center;
- }
- 
- .score-area {
-    font-size: large;
-    font-weight: bold;
- }
-  
- #player-score {
-    color: #gold;
- }
-  
- #total-score {
-    color: #brown
- }
- 
- focus stand out from the rest of the buttons.
- .btn {
-    font-size: large;
-    font-weight: bold;
-    background: gold;
-    border-radius: 4px;
-    padding: 10px;
-    color: beige;
-    margin: 6px;
-    cursor: pointer;
- }
- .options{
-    padding: 10px;
-    order: 3;
- }
-  
- .controls-area{
-    padding: 10px;
-    order: 4;
- }
- /*  
+/*----- Game layout */
+.game-area{
+   background-color: #b1d7f1;
+   box-sizing: border-box;
+   width: 85%;
+   height: 90vh;
+   max-height: 455px;
+   max-width: 830px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 6px;
+   padding: 1.5%;
+   }
+
+   
+/*  
  .hide {
     display: none;
  }
