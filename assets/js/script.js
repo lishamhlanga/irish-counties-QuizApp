@@ -105,7 +105,7 @@ let app = {
     index: 0,
 
     //take index and select the question of that UI and load it up
-    
+
   load: function() {
     if (this.index <= this.questions.length - 1) {
       quizbox.innerHTML = this.index + 1 + ". " + this.questions[this.index].q;
@@ -122,4 +122,19 @@ let app = {
   next: function() {
     this.index++;
     this.load();
+  },
+
+  //apply green background if correct
+
+  check: function(ele) {
+    let id = ele.id.split('');
+    if (id[id.length - 1] == this.questions[this.index].answer) {
+      this.score++;
+      ele.className = "correct";
+    alert("Hey! You got it right!");
+      this.scoreArea();
+    } else {
+      ele.className = "wrong";
+      alert("Hey! sorry wrong answer try next time");
+    }
   },
