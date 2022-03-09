@@ -15,27 +15,39 @@
         <title>Irish Counties Quiz</title>
     </head>
 
-    <body> 
-        <div class="logo">
+    <body>
+        <h1 class="heading">
+              <img class="logo" src="https://codeinstitute.s3.amazonaws.com/fullstack/12-javaScript-essentials/logo.png"> Ireland Counties
+          </h1>
+        
         <div class="game-area">
-            <div class="score=area">
-                <span id="player-score">0</span>
-            <span> / </span>
-                <span id="total-score">0</span>
+          <div id="questionArea" class="question">
+            Sample Question
+          </div>
+          <div class="options">
+            <ul id="ul">
+              <li id="opt1" onclick="button(this)"></li>
+              <li id="opt2" onclick="button(this)"></li>
+              <li id="opt3" onclick="button(this)"></li>
+              <li id="opt4" onclick="button(this)"></li>
+            </ul>
+          </div>
+          <div class="score">
+            <div class="next">
+              <button id="btnNext" type="button" onclick="next()">
+                Next
+              </button>
             </div>
-            <div class="content" id="question-area">
-                <div id="question-"></div>
-                <div class="options">
-                    <button class="btn btn-option" id="True">True</button>
-                    <button class="btn btn-option" id="False">False</button>
-                </div>
+            <div class="score-area">
+              SCORE: <span id="scoreArea">0</span>
             </div>
-            <div class="controls-area">
-                <button class="btn btn-restart" id="restart">Restart</button>
-                <button class="btn btn-prev" id="prev">Prev</button>
-                <button class="btn btn-next" id="next">Next</button>
-                <button class="btn btn-submit" id="submit">Submit</button>
+            <div class="restart">
+              <button id="btnRestart" type="button" onclick="Restart()">
+                Restart
+              </button>
             </div>
+          </div>
+      
         </div>
         <script src="assets/js/script.js"></script>
      </body>
