@@ -16,40 +16,40 @@
     </head>
 
     <body>
-        <h1 class="heading">
-              <img class="logo" src="assets/images/Irl_counties.png" alt="irish_counties"> Irish Counties
-          </h1>
-        
-        <div class="game-area">
-          <div id="questionArea" class="question">
-            Sample Question
-          </div>
-          <div class="options">
-            <ul id="ul">
-              <li id="opt1" onclick="button(this)"></li>
-              <li id="opt2" onclick="button(this)"></li>
-              <li id="opt3" onclick="button(this)"></li>
-              <li id="opt4" onclick="button(this)"></li>
-            </ul>
-          </div>
-          <div class="score">
-            <div class="next">
-              <button id="btnNext" type="button" onclick="next()">
-                Next
-              </button>
-            </div>
-            <div class="score-area">
-              SCORE: <span id="scoreArea">0</span>
-            </div>
-            <div class="restart">
-              <button id="btnRestart" type="button" onclick="Restart()">
-                Restart
-              </button>
-            </div>
-          </div>
-      
+      <h1 class="heading">
+        <img class="logo" src="assets/images/Irl_counties.png" alt="irish_counties_logo"> Irish Counties
+      </h1>
+
+      <div class="game-area">
+        <div id="questionArea" class="question">
+          Sample Question
         </div>
-        <script src="assets/js/script.js"></script>
+        <div class="ansSelect">
+          <ul id="ul">
+            <li id="opt1" onclick="button(this)"></li>
+            <li id="opt2" onclick="button(this)"></li>
+            <li id="opt3" onclick="button(this)"></li>
+            <li id="opt4" onclick="button(this)"></li>
+          </ul>
+        </div>
+        <div class="score">
+          <div class="next">
+            <button id="btnNext" type="button" onclick="next()">
+              Next
+            </button>
+          </div>
+          <div class="score-area">
+            SCORE: <span id="scoreArea">0</span>
+          </div>
+          <div class="restart">
+            <button id="btnRestart" type="button" onclick="restart()">
+              Restart
+            </button>
+          </div>
+        </div>
+
+      </div>
+      <script src="assets/js/script.js"></script>
      </body>
      
 </html>

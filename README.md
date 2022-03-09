@@ -1,4 +1,5 @@
-Quiz App - Irish Counties
+Website name - Donegal Famous Beaches
+
 This website is for everyone who love adventure, outgoing, family out, .Audience is all ages .
 
 To do this project I had 3 choices in mind a DIY website, Helpline Website, ad lastly Donegal Best Beaches. The reason I choose the Donegal Famous beaches i found that many people were not aware of how beautiful the coastal drive is, housing beautiful outstanding beaches that rank higher in the world. I love taking my family to the beach so one time i tried to find beaches in Donegal and it wasn't an easy find. There are some hidden beaches which are not on the map very beautiful to visit.This website idea is geared to help people who love outdoors, adventure, nature and families to be able to view and have info in regard to nearest lovely beaches.
@@ -6,6 +7,7 @@ To do this project I had 3 choices in mind a DIY website, Helpline Website, ad l
 [Website Link ]https://lishamhlanga.github.io/Donegal-Famous-Beaches/
 
 Features
+
 Navigation Bar
 
 The navigation bar which is fully responsive includes links to Home , Famous, About Us and the Upload page and all links are the same on every page enabling an easy flow when the user is on the website.
@@ -42,7 +44,9 @@ This page is is for uploading any new information that the user has for example 
 The user will be able to enter information on the form and upload an image of their beach and where it is located eg county
 Once uploaded the admin of the site will approve , check everything and publish the info. upload-form
 Future Updates
+
 Features Left to Implement
+
 This website have still a lot to be implemented.
 the famous page to have the following
 categories of counties ,Donegal, Cork ,etc
@@ -58,6 +62,7 @@ page with real live update in terms of forecast and safety
 To add a gallery of images for each individual beach highlighted.
 To include events that are happening in the community as well as community posts news.
 Testing
+
 The site seems to work well , I have used the developer tools to check the site from different viewpoints mobile, tablet , desktop . The site scales well with the use of media queries that facilitate this. The navigation links which are present on every page makes it easier to navigate form one page to another and the back to top link on the bottom right footer position helps bring the user to the top of the screen. All the links have a hover link to help the user know which link they are and a color of gold is projected . The text used on the body is 16px seems to be right for both mobile and desktop with h1 and h2 highlighting the titles and sub titles. I have tested it with various browsers and it renders well, Firefeox, Mozilla, Microsoft Edge, Google Chrome. The images are all aligned horizontal and vertical and scale well on the mobile and desktop with the flex wrap kicking in to distribute the mobile experience of a single column beneath each other and scale as the surface view increase.
 
 The footer houses social media links with icons that when clicked open a new tab. addition to presentation the body area background is light blue,the colours I used are good for the eyes and does not strain the user.
@@ -71,6 +76,7 @@ Test of Responsiveness
 Site tested on the amI.responsive for responsiveness http://ami.responsivedesign.is/?url=https://github.com/lishamhlanga/Donegal-Famous-Beaches/
 
 Validator Testing
+
 Index.html validated with not errors (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Findex.html)
 
 About-Us validated with (https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Fabout-us.html)
@@ -82,6 +88,7 @@ Form.html Upload validated with no errors (https://validator.w3.org/nu/?doc=http
 CSS Validator ( https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 Deployment
+
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Main Branch with /root as the default
@@ -90,7 +97,9 @@ The link would be displayed . Deployment Github
 The live link can be found here - https://lishamhlanga.github.io/Donegal-Famous-Beaches/
 
 Credits
+
 Content
+
 The text for the Home page , About page and Upload page I wrote that.
 The text for the Famous Beaches page https://www.theirishroadtrip.com/best-beaches-in-donegal/
 Instructions on how to implement flex box and Grid https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw
@@ -103,6 +112,7 @@ Youtube creating a responsive navigation learnt a lot followed and created simil
 Code Institute notes ( The form of which I changed to suit my project )
 Thanks to my tutor ( great support and feedback ) and slack for all the info that was shared to make this project possible.
 Media
+
 The photos used on the body columns of the pages https://www.theirishroadtrip.com/best-beaches-in-donegal/ The icons in the footer were taken from Font Awesome
 Unsplash
 Brian Kelly licensed for reuse under this Licence https://creativecommons.org/licenses/by-sa/2.0/#_blank)
@@ -110,5 +120,6 @@ Brian Kelly licensed for reuse under this Licence https://creativecommons.org/li
 The images used for the gallery page were taken from this other open source site https://www.theirishroadtrip.com/best-beaches-in-donegal/
 The hero cover images on each page I designed them using Pixelmator
 Difficulties Encountered
+
 Learning flex box and Grid was a bit of a challenge but with lots of practice I was able to fully understand the concepts.
 Media queries as well but overall was able to implement the concept on my project by using mobile first then scaling to desktop.
