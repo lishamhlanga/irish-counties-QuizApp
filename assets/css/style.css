@@ -49,7 +49,80 @@ body {
       width: 100%;
       font-size: 25px;
   }
-  
+  /* -----Game area questions options, colour highlights to differentiate answers
+  flex and flex wrap to align answers and buttons */
+.game-area .options{
+   float: left;
+   width: 100%;
+}
+
+.game-area.options ul{
+   list-style: none;
+   padding: 0%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.game-area .options ul li{
+   display: inline-block;
+   background-color: #285e78;
+   width: 46%;
+   padding: 15px;
+   border-radius: 8px;
+   margin-bottom: 30px;
+   margin: 10px;
+   color:white;
+   box-shadow: 0px 3px 0px #b32c2c;
+   cursor: pointer;
+}
+
+.game-area .options ul li.correct{
+   background-color: rgb(11 110 11);
+   box-shadow: 0px 3px 0px #0d2c2c
+}
+
+.game-area .options ul li.wrong{
+   background-color: #b32c2c;
+   box-shadow: 0px 4px 0px #0d2c2c
+}
+
+.game-area .options ul li:active{
+   box-shadow: 0px 0px 0px  rgb(84, 110, 179);
+}
+
+/* -----Game area, score area  */
+.game-area .score {
+   float: left;
+   width: 100%;
+}
+
+.game-area .score .next{
+   width: 40%;
+   float: left;
+}
+
+.game-area .score .next button{
+   padding: 10px 60px;
+   color: white;
+   background-color:#064e4e;
+   border: none;
+   border-radius: 6px;
+}
+
+.game-area .score .score-area{
+   width: 60%;
+   float: left;
+   line-height: 40px;
+   font-size: 20px;
+}
+
+.game-area .score .score-area span{
+   background-color: rgb(11 110 11);
+   padding: 5px 20px;
+   border: none;
+   color:white;
+   border-radius: 6px;
 /*  
  .hide {
     display: none;
