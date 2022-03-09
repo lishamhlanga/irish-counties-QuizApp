@@ -152,3 +152,14 @@ let app = {
       ul.children[i].className = ''
     }
   },
+  
+  //initial score is 0 and when answered correct increase score by 1
+
+  score: 0,
+
+  //display the score relative to the total number questions
+
+  scoreArea: function() {
+    scoreArea.innerHTML = this.score + "/" + this.questions.length;
+  }
+}
