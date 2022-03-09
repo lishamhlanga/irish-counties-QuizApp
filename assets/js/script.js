@@ -138,3 +138,17 @@ let app = {
       alert("Hey! sorry wrong answer try next time");
     }
   },
+
+  //look at all the children and prevent click
+
+  preventClick: function() {
+    for (let i = 0; i < ul.children.length; i++) {
+      ul.children[i].style.pointerEvents = "none";
+    }
+  },
+  allowClick: function() {
+    for (let i = 0; i < ul.children.length; i++) {
+      ul.children[i].style.pointerEvents = "auto";
+      ul.children[i].className = ''
+    }
+  },
