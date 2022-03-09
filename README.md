@@ -1,108 +1,114 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Website name - Donegal Famous Beaches
+This website is for everyone who love adventure, outgoing, family out, .Audience is all ages .
 
-Welcome lishamhlanga,
+To do this project I had 3 choices in mind a DIY website, Helpline Website, ad lastly Donegal Best Beaches. The reason I choose the Donegal Famous beaches i found that many people were not aware of how beautiful the coastal drive is, housing beautiful outstanding beaches that rank higher in the world. I love taking my family to the beach so one time i tried to find beaches in Donegal and it wasn't an easy find. There are some hidden beaches which are not on the map very beautiful to visit.This website idea is geared to help people who love outdoors, adventure, nature and families to be able to view and have info in regard to nearest lovely beaches.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Website Link ]https://lishamhlanga.github.io/Donegal-Famous-Beaches/
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Features
+Navigation Bar
 
-## Gitpod Reminders
+The navigation bar which is fully responsive includes links to Home , Famous, About Us and the Upload page and all links are the same on every page enabling an easy flow when the user is on the website.
+Added too to each pages is back top button link on the right bottom corner easy scroll back to the top of the page.
+The menu is clickable as well to bring back to the home page
+Nav Bar
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The Home Page
 
-`python3 -m http.server`
+The landing includes an image of a swimmer in the sea this brings a visual perception of what to expect in the website that swimming is included.
+Below the image there is 3 columns with images but smaller of equal, size, and length all having beautiful beaches with lovely surrounding . This catches the view to find out what are these beaches and where to find them.
+Underneath the images there are some text with information on various topics about beaches , an exciting read.
+Each image below has a read more link which is clickable but does not link anywhere , it's supposed to link to another page with more images and few text to read but this is a future update to implement with more pages being added.
+There is a horizontal line that separate the body from the footer and the footer has social links and copyright information. These social media icons are clickable as well and will direct the user to a new page appropriate to their media channel.
+On the right hand bottom corner there is a back to top page to help the user scroll back to the top of the page, making it user friendly.
+The colours I selected are warm colours easy to the user and complement the theme of the website . Blue for the logo , navigation (blue), hover{gold) mid body & footer colour ( light blue), text color (light black) , font (lato) Home Page
+About Us Page
 
-A blue button should appear to click: _Make Public_,
+The about us page introduces the user to the purpose of the website , who the owners are and their reasons to have the website
+This gives the user a sense of being part of the website as it highlights what it's all about and purpose. About Us
+Famous Beaches Page
 
-Another blue button should appear to click: _Open Browser_.
+This section have all the beaches that are ranked highly in the world and in Ireland, currently it features 9 images with text describing each beach and location .
+This section will be frequently updated , new beaches would be added , so regular update would be required.
+There is more to be added here for future upgrades.
+The read more current don't have a direct link ,what it shows is that more info will be added for the user to browse to. Famous Beaches
+The Footer
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The footer section includes links to the relevant social media sites for Donegal Famous Beaches. The links will open to a new tab to allow easy navigation for the user.
+The footer is valuable to the user as it encourages them to keep connected via social media. Footer
+Upload Page
 
-A blue button should appear to click: _Make Public_,
+This page is is for uploading any new information that the user has for example new beaches that the users want to be featured in the Famous Beaches page.
+The user will be able to enter information on the form and upload an image of their beach and where it is located eg county
+Once uploaded the admin of the site will approve , check everything and publish the info. upload-form
+Future Updates
+Features Left to Implement
+This website have still a lot to be implemented.
+the famous page to have the following
+categories of counties ,Donegal, Cork ,etc
+visitors can select different counties and view the best beaches of each county
+to add videos onto the page
+to add panoramic view like 360, where by they can view the beach like in real
+Incorporate booking as well for holidays, like holiday homes etc
+Have a payment option on the page for bookings .
+More pages for read more from the clicked links to a more detailed page with more info
+privacy page for beach visitors
+links to helpline and phone numbers
+page with real live update in terms of forecast and safety
+To add a gallery of images for each individual beach highlighted.
+To include events that are happening in the community as well as community posts news.
+Testing
+The site seems to work well , I have used the developer tools to check the site from different viewpoints mobile, tablet , desktop . The site scales well with the use of media queries that facilitate this. The navigation links which are present on every page makes it easier to navigate form one page to another and the back to top link on the bottom right footer position helps bring the user to the top of the screen. All the links have a hover link to help the user know which link they are and a color of gold is projected . The text used on the body is 16px seems to be right for both mobile and desktop with h1 and h2 highlighting the titles and sub titles. I have tested it with various browsers and it renders well, Firefeox, Mozilla, Microsoft Edge, Google Chrome. The images are all aligned horizontal and vertical and scale well on the mobile and desktop with the flex wrap kicking in to distribute the mobile experience of a single column beneath each other and scale as the surface view increase.
 
-Another blue button should appear to click: _Open Browser_.
+The footer houses social media links with icons that when clicked open a new tab. addition to presentation the body area background is light blue,the colours I used are good for the eyes and does not strain the user.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The upload form makes it easier for the user to submit their beaches of interest for publication ,they can right on the comment section and then upload the image. I included an link to reduce the image if it's too big , maximum image size being 20mb.
 
-To log into the Heroku toolbelt CLI:
+I also included required on the form that will highlight ( fill out this field ) if the user has left some areas unfilled. The form is responsive as well and scales of different screen sizes . There is a google mapat the bootom of the upload page which users can click the red dot to display information about the beach , and where its located.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Test of Responsiveness
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Site tested on the amI.responsive for responsiveness http://ami.responsivedesign.is/?url=https://github.com/lishamhlanga/Donegal-Famous-Beaches/
 
-------
+Validator Testing
+Index.html validated with not errors (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Findex.html)
 
-## Release History
+About-Us validated with (https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Fabout-us.html)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Famous Article validated with no errors (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Ffamous-beaches.html)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Form.html Upload validated with no errors (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Fform.html)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+CSS Validator ( https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Main Branch with /root as the default
+Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The link would be displayed . Deployment Github
+The live link can be found here - https://lishamhlanga.github.io/Donegal-Famous-Beaches/
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Credits
+Content
+The text for the Home page , About page and Upload page I wrote that.
+The text for the Famous Beaches page https://www.theirishroadtrip.com/best-beaches-in-donegal/
+Instructions on how to implement flex box and Grid https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw
+The icons in the footer were taken from Font Awesome
+Unsplash: Beautiful Free Images & Pictures https://unsplash.com
+Brian Kelly (licensed for reuse under this Licence https://creativecommons.org/licenses/by-sa/2.0/#_blank)
+https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw
+W3 schools website
+Youtube creating a responsive navigation learnt a lot followed and created similar but mine customised differently https://www.youtube.com/watch?v=At4B7A4GOPg
+Code Institute notes ( The form of which I changed to suit my project )
+Thanks to my tutor ( great support and feedback ) and slack for all the info that was shared to make this project possible.
+Media
+The photos used on the body columns of the pages https://www.theirishroadtrip.com/best-beaches-in-donegal/ The icons in the footer were taken from Font Awesome
+Unsplash
+Brian Kelly licensed for reuse under this Licence https://creativecommons.org/licenses/by-sa/2.0/#_blank)
+© Kenneth Allen and licensed for reuse under this Licence https://creativecommons.org/licenses/by-sa/2.0/#_blank
+The images used for the gallery page were taken from this other open source site https://www.theirishroadtrip.com/best-beaches-in-donegal/
+The hero cover images on each page I designed them using Pixelmator
+Difficulties Encountered
+Learning flex box and Grid was a bit of a challenge but with lots of practice I was able to fully understand the concepts.
+Media queries as well but overall was able to implement the concept on my project by using mobile first then scaling to desktop.
