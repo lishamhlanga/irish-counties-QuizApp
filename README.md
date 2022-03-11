@@ -79,13 +79,16 @@ Validator Testing
 
 Index.html validated with not errors (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2Firish-counties-QuizApp%2Findex.html)
 
-About-Us validated with (https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Fabout-us.html)
+start.html validated with (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2Firish-counties-QuizApp%2Fstart.html)
 
-Famous Article validated with no errors (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Ffamous-beaches.html)
+Feedback.html form showing errors about (https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flishamhlanga.github.io%2Firish-counties-QuizApp%2Ffeedback.html)
 
-Form.html Upload validated with no errors (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Fform.html)
+start.css no errors found  validated with no errors (
 
-CSS Validator ( https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+Feedback.css passed with no warnings 
+
+Index.css passed with no warnings.
+
 
 Deployment
 
@@ -94,7 +97,7 @@ In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Main Branch with /root as the default
 Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The link would be displayed . Deployment Github
-The live link can be found here - https://lishamhlanga.github.io/Donegal-Famous-Beaches/
+The live link can be found here - https://lishamhlanga.github.io/irish-counties-QuizApp/
 
 Credits
 
@@ -109,17 +112,20 @@ Brian Kelly (licensed for reuse under this Licence https://creativecommons.org/l
 https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw
 W3 schools website
 Youtube creating a responsive navigation learnt a lot followed and created similar but mine customised differently https://www.youtube.com/watch?v=At4B7A4GOPg
-Code Institute notes ( The form of which I changed to suit my project )
+Code Institute notes ( The notes and the Love Maths Project)
 Thanks to my tutor ( great support and feedback ) and slack for all the info that was shared to make this project possible.
 Media
 
-The photos used on the body columns of the pages https://www.theirishroadtrip.com/best-beaches-in-donegal/ The icons in the footer were taken from Font Awesome
+The photos used on the pages are from unsplash and Wikipedia Any Icon witin the pages thanks to Font Awesome
 Unsplash
-Brian Kelly licensed for reuse under this Licence https://creativecommons.org/licenses/by-sa/2.0/#_blank)
-© Kenneth Allen and licensed for reuse under this Licence https://creativecommons.org/licenses/by-sa/2.0/#_blank
-The images used for the gallery page were taken from this other open source site https://www.theirishroadtrip.com/best-beaches-in-donegal/
-The hero cover images on each page I designed them using Pixelmator
+Augusto from Unsplash  licensed for reuse under this Licence https://creativecommons.org/licenses/by-sa/2.0/#_blank)
 Difficulties Encountered
 
-Learning flex box and Grid was a bit of a challenge but with lots of practice I was able to fully understand the concepts.
-Media queries as well but overall was able to implement the concept on my project by using mobile first then scaling to desktop.
+The lessons through the LMS were easy to follow and to grasp easier like when all concepts of Javascrips from variable to DOM , issue came on how to implement them on the website. Firstly it was hard its like I was moving circles but what i discovered was using chrome developer tools console and snippets helped me a lot as I was able to manipulate and write code and execute changes. This method made me to understand the DOM better.
+
+I had to research through youtube and stackflow  Overflow to master some of the concepts. The trick is all about practice practice of which i am doing.
+
+The game I wanted to include lots of functionality but time is the killer here, overall managed to get it working by following my tutor advice to use a flow diagram , from step one to finish and the coding accordingly.
+Javascript is very challenging but with practice and  study going through the lessons again and the challenges they did help me.
+I wanted to do a nice presentation of the game but time was not on my side.
+I encountered a challenge of resetting the game to  restart and the scores to revert to zero but with concentration found the solution.
