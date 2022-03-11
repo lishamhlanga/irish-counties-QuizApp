@@ -5,11 +5,8 @@
 /* --------- Global style */
 /* body font and background color */
 body {
-   /* background: linear-gradient(to right, #29201d, #d6c1af, #968060); */
    background-color:#ecf5ff;
    background-image: url("assets/images/cinema-screen -augusto-unsplash.jpg");
-   background-repeat: no-repeat;
-   background-size: contain;
    font-family: "Raleway", sans-serif;
    color: #445361;
    margin: 0;
@@ -47,9 +44,7 @@ body {
 /* -----Game question area , background colour and float left  */
 .game-area .question {
    min-height: 50px;
-   /* background-color: #3498db; */
    border-radius: 6px;
-   /* color: white; */
    padding: 10px 0px;
    display: inline-block;
    width: 100%;
@@ -171,7 +166,6 @@ body {
    .game-area {
       height: 170vh;
       width: 100%;
-      /* padding: 0px; */
       margin: 0px;
       max-height: 475px;
    }

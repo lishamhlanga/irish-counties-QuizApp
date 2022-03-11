@@ -1,5 +1,4 @@
 
-
 /* feedback form */
  html {
    background-image: url("/assets/images/cinema-screen -augusto-unsplash.jpg");
@@ -17,7 +16,7 @@
    line-height: 20px;
    -webkit-transform: rotate(-90deg);
    font-weight: 500;
-   color: #ffffff;
+   color: #fff;
    transform: rotate(-90deg);
    -ms-transform: rotate(-90deg);
    -moz-transform: rotate(-90deg);
@@ -100,7 +99,7 @@
 }
 
 
-/* Icons ---------------------------------- */
+/* Icons ---------------------- */
 
 #feedback-name {
    background-size: 30px 30px;
