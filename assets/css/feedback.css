@@ -1,9 +1,9 @@
 
 /* feedback form */
- html {
+ html{
    background-image: url("../images/cinema-screen-augusto-unsplash.jpg");
    background-size: cover;
-   background: #ecf5ff;;
+   /* background: #ecf5ff;; */
 }
 
 .feedback-button {
