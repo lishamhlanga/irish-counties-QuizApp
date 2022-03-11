@@ -3,35 +3,52 @@
 
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/start.css">
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
-    <title>Irish Counties Quiz App</title>
+
+    <!--font awesome and google fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Irish Counties Quiz</title>
   </head>
 
   <body>
-    <div class="container">
-      <div id="home" class="flex-center flex-column">
-        <h1>Irish Counties Quiz</h1>
-        <ul class="lists">
-          <li>This game will help you familiarise yourself with Irish Counties</li>
-          <li>To play click the play button</li>
-          <li>Answer the question by selecting the right answer.
-          <li>Click next to proceed to next question and so on.</li>
-          <li>Every right answer will get a score.</li>
-          <li>A colour change of green represent right answer and a red wrong answer.</li>
-          <li>A score keeps track of successfully answered questions..</li>
-          <li>You can restart the game by clicking the restart button at the end of the game.</li>
-          <li>Try to achieve a higher score</li>
-          <li>Leave us a feedback in relation to the Quiz App</li>
-          <li>ENJOY</li>
-        </ul>
-        <a class="btn" href="index.html">Play</a>
-        <a class="btn" href="feedback.html">Feedback</a>
-      </div>
-    </div>
+    <h1 class="heading"><a href="start.html">
+        <img class="logo" src="assets/images/Irl_counties.png" alt="irish_counties_logo"></a> Irish Counties
+    </h1>
 
+    <div class="game-area">
+      <div id="questionArea" class="question">
+        Sample Question
+      </div>
+      <div class="ansSelect">
+        <ul id="ul">
+          <li id="opt1" onclick="button(this)"></li>
+          <li id="opt2" onclick="button(this)"></li>
+          <li id="opt3" onclick="button(this)"></li>
+          <li id="opt4" onclick="button(this)"></li>
+        </ul>
+      </div>
+      <div class="score">
+        <div class="next">
+          <button id="btnNext" type="button" onclick="next()">
+            Next
+          </button>
+        </div>
+        <div class="score-area">
+          SCORE: <span id="scoreArea">0</span>
+        </div>
+        <div class="restart">
+          <button id="btnRestart" type="button" onclick="restart()">
+            Restart
+          </button>
+        </div>
+      </div>
+
+    </div>
+    <script src="assets/js/script.js"></script>
   </body>
 
 </html>
