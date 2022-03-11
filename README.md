@@ -1,6 +1,6 @@
-Website name - Donegal Famous Beaches
+QUIZ GAME - Irish Counties
 
-This website is for everyone who love adventure, outgoing, family out, .Audience is all ages .
+This QUIZ APP love adventure, outgoing, family out, .Audience is all ages .
 
 To do this project I had 3 choices in mind a DIY website, Helpline Website, ad lastly Donegal Best Beaches. The reason I choose the Donegal Famous beaches i found that many people were not aware of how beautiful the coastal drive is, housing beautiful outstanding beaches that rank higher in the world. I love taking my family to the beach so one time i tried to find beaches in Donegal and it wasn't an easy find. There are some hidden beaches which are not on the map very beautiful to visit.This website idea is geared to help people who love outdoors, adventure, nature and families to be able to view and have info in regard to nearest lovely beaches.
 
@@ -73,11 +73,11 @@ I also included required on the form that will highlight ( fill out this field )
 
 Test of Responsiveness
 
-Site tested on the amI.responsive for responsiveness http://ami.responsivedesign.is/?url=https://github.com/lishamhlanga/Donegal-Famous-Beaches/
+Site tested on the amI.responsive for responsiveness (http://ami.responsivedesign.is/#/)
 
 Validator Testing
 
-Index.html validated with not errors (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Findex.html)
+Index.html validated with not errors (https://validator.w3.org/nu/?doc=https%3A%2F%2Flishamhlanga.github.io%2Firish-counties-QuizApp%2Findex.html)
 
 About-Us validated with (https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flishamhlanga.github.io%2FDonegal-Famous-Beaches%2Fabout-us.html)
 
