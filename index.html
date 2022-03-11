@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--font awesome and google fonts-->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+    <!--font awesome and google fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Irish Counties Quiz</title>
-    </head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Irish Counties Quiz</title>
+  </head>
 
-    <body>
-      <h1 class="heading"><a href="start.html">
-        <img class="logo" src="assets/images/Irl_counties.png"alt="irish_counties_logo"></a>  Irish Counties
-      </h1>
+  <body>
+    <h1 class="heading"><a href="start.html">
+        <img class="logo" src="assets/images/Irl_counties.png" alt="irish_counties_logo"></a> Irish Counties
+    </h1>
 
-      <div class="game-area">
-        <div id="questionArea" class="question">
-          Sample Question
-        </div>
-        <div class="ansSelect">
-          <ul id="ul">
-            <li id="opt1" onclick="button(this)"></li>
-            <li id="opt2" onclick="button(this)"></li>
-            <li id="opt3" onclick="button(this)"></li>
-            <li id="opt4" onclick="button(this)"></li>
-          </ul>
-        </div>
-        <div class="score">
-          <div class="next">
-            <button id="btnNext" type="button" onclick="next()">
-              Next
-            </button>
-          </div>
-          <div class="score-area">
-            SCORE: <span id="scoreArea">0</span>
-          </div>
-          <div class="restart">
-            <button id="btnRestart" type="button" onclick="restart()">
-              Restart
-            </button>
-          </div>
-        </div>
-
+    <div class="game-area">
+      <div id="questionArea" class="question">
+        Sample Question
       </div>
-      <script src="assets/js/script.js"></script>
-     </body>
-     
+      <div class="ansSelect">
+        <ul id="ul">
+          <li id="opt1" onclick="button(this)"></li>
+          <li id="opt2" onclick="button(this)"></li>
+          <li id="opt3" onclick="button(this)"></li>
+          <li id="opt4" onclick="button(this)"></li>
+        </ul>
+      </div>
+      <div class="score">
+        <div class="next">
+          <button id="btnNext" type="button" onclick="next()">
+            Next
+          </button>
+        </div>
+        <div class="score-area">
+          SCORE: <span id="scoreArea">0</span>
+        </div>
+        <div class="restart">
+          <button id="btnRestart" type="button" onclick="restart()">
+            Restart
+          </button>
+        </div>
+      </div>
+
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+
 </html>

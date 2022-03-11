@@ -6,7 +6,7 @@
    background-size: cover;
    background-repeat: no-repeat;
    background-size: contain;
-   /* background: #ecf5ff;; */
+   background: #ecf5ff;;
 }
 
 .feedback-button {
@@ -69,8 +69,7 @@
    position: absolute;
    margin-top: 30px;
    margin-left: -260px;
-   -moz-border-radius: 7px;
-   -webkit-border-radius: 7px;
+   border-radius: 7px;
 }
 
 .feedback-input {
