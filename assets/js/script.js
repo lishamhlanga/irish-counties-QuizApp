@@ -9,83 +9,83 @@ const opt3 = document.getElementById('opt3');
 const opt4 = document.getElementById('opt4');
 const restartBtn = document.getElementById('btnRestart');
 
-//create object called app control our app( contain attributes and variables
+//create object called app control our app( contain attributes and variables )
 let app = {
   question: [{
-      que: 'Which of the following is a county',
-      ansSelect: ['Green Castle', 'Buncrana', 'Donegal', 'Clomany'],
-      answer: 3
-    },
-    {
-      que: 'Complete the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 2
-    },
-    {
-      que: 'Cork belongs to which Province',
-      ansSelect: ['Munster', 'Leinster', 'Connacht', 'Ulster'],
-      answer: 1
-    },
-    {
-      que: 'Leinster has one of these counties except',
-      ansSelect: ['Carlow', 'Dublin', 'Kildare', 'Clare'],
-      answer: 4
-    },
-    {
-      que: 'Select the odd one out from these counties',
-      ansSelect: ['Buncrana', 'Dublin', 'Kerry', 'Waterford'],
-      answer: 1
-    },
-    {
-      que: 'Find the sentence .... is a big county',
-      ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
-      answer: 2
-    },
-    {
-      que: 'There are ....traditional provinces in Ireland',
-      ansSelect: ['30', '18', '32', '36'],
-      answer: 3
-    },
-    {
-      que: 'Counties are divided into provinces , Dublin belongs to ....',
-      ansSelect: ['Leinster', 'Munster', 'Connacht', 'Ulster'],
-      answer: 1
-    },
-    {
-      que: 'Finish the sentence .... is a county',
-      ansSelect: ['Sword', 'Meath', 'Clomany', 'Bandon'],
-      answer: 2
-    },
-    {
-      que: 'Carlow is part of which province',
-      ansSelect: ['Munster', 'Leinster', 'Ulster', 'Connacht'],
-      answer: 2
-    },
-    {
-      que: 'Complete the sentence .... is a county',
-      ansSelect: ['Blackrock', 'Sligo', 'Tramore', 'Brandon'],
-      answer: 2
-    },
-    {
-      que: 'There are .... counties in Ireland',
-      ansSelect: ['29', '26', '32', '20'],
-      answer: 2
-    },
-    {
-      que: 'Complete the sentence .... is a county',
-      ansSelect: ['Wicklow', 'Rosslare', 'Greencastle', 'Galaway'],
-      answer: 4
-    },
-    {
-      que: 'Clare Cork Limerick Donegal are all counties ',
-      ansSelect: ['Yes', 'No', 'Maybe', 'Not Sure'],
-      answer: 1
-    },
-    {
-      que: 'Which is the odd one out , not a county',
-      ansSelect: ['Kilkenny', 'Cavan', 'Tipperary', 'Brandon'],
-      answer: 4
-    },
+    que: 'Which of the following is a county',
+    ansSelect: ['Green Castle', 'Buncrana', 'Donegal', 'Clomany'],
+    answer: 3
+  },
+  {
+    que: 'Complete the sentence .... is a big county',
+    ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
+    answer: 2
+  },
+  {
+    que: 'Cork belongs to which Province',
+    ansSelect: ['Munster', 'Leinster', 'Connacht', 'Ulster'],
+    answer: 1
+  },
+  {
+    que: 'Leinster has one of these counties except',
+    ansSelect: ['Carlow', 'Dublin', 'Kildare', 'Clare'],
+    answer: 4
+  },
+  {
+    que: 'Select the odd one out from these counties',
+    ansSelect: ['Buncrana', 'Dublin', 'Kerry', 'Waterford'],
+    answer: 1
+  },
+  {
+    que: 'Find the sentence .... is a big county',
+    ansSelect: ['Blackrock', 'Dublin', 'Tramore', 'Brandon'],
+    answer: 2
+  },
+  {
+    que: 'There are ....traditional provinces in Ireland',
+    ansSelect: ['30', '18', '32', '36'],
+    answer: 3
+  },
+  {
+    que: 'Counties are divided into provinces , Dublin belongs to ....',
+    ansSelect: ['Leinster', 'Munster', 'Connacht', 'Ulster'],
+    answer: 1
+  },
+  {
+    que: 'Finish the sentence .... is a county',
+    ansSelect: ['Sword', 'Meath', 'Clomany', 'Bandon'],
+    answer: 2
+  },
+  {
+    que: 'Carlow is part of which province',
+    ansSelect: ['Munster', 'Leinster', 'Ulster', 'Connacht'],
+    answer: 2
+  },
+  {
+    que: 'Complete the sentence .... is a county',
+    ansSelect: ['Blackrock', 'Sligo', 'Tramore', 'Brandon'],
+    answer: 2
+  },
+  {
+    que: 'There are .... counties in Ireland',
+    ansSelect: ['29', '26', '32', '20'],
+    answer: 2
+  },
+  {
+    que: 'Complete the sentence .... is a county',
+    ansSelect: ['Wicklow', 'Rosslare', 'Greencastle', 'Galway'],
+    answer: 4
+  },
+  {
+    que: 'Clare Cork Limerick Donegal are all counties ',
+    ansSelect: ['Yes', 'No', 'Maybe', 'Not Sure'],
+    answer: 1
+  },
+  {
+    que: 'Which is the odd one out , not a county',
+    ansSelect: ['Kilkenny', 'Cavan', 'Tipperary', 'Brandon'],
+    answer: 4
+  },
 
   ],
   index: 0,
@@ -136,14 +136,14 @@ let app = {
   },
   //initial score is 0 and when answered correct increase score by 1
   score: 0,
-  //display the score relative to the total number of questions
+  //display the score relative to the total number questions
   scoreArea: function () {
     scoreArea.innerHTML = this.score + "/" + this.question.length;
   }
 }
 // window load when the app starts
 window.load = app.load();
-// function called when an option is clicked
+// fuction called when an option is clicked
 function button(queEle) {
   app.check(queEle);
   app.preventClick();
@@ -162,9 +162,20 @@ function restart() {
   if (document.getElementsByClassName('correct').length) {
     document.getElementsByClassName('correct')[0].classList.remove('correct');
   }
-  score = 0;
+  app.score = 0;
+  scoreArea.innerHTML = '0';
   app.load();
   ul.style.display = "block";
   nextButton.style.display = "initial";
   restartBtn.style.display = "none";
+}
+
+
+// feedback form js script
+function toggle_visibility() {
+  var e = document.getElementById('feedback-main');
+  if (e.style.display == 'block')
+    e.style.display = 'none';
+  else
+    e.style.display = 'block';
 }
