@@ -1,10 +1,8 @@
 
 /* feedback form */
  html {
-   background-image: url("/assets/images/cinema-screen -augusto-unsplash.jpg");
+   background-image: url("/images/cinema-screen -augusto-unsplash.jpg");
    background-size: cover;
-   background-repeat: no-repeat;
-   background-size: contain;
    background: #ecf5ff;;
 }
 

@@ -17,7 +17,7 @@ The index page has a Header and Game instructions and 2 buttons  below it.
 The header is the title Irish Counties Quiz which is a self reflecting title to the user to know that its a quiz about Irish Counties
 Below that I had a unordered list of instructions on how to play the game
 Below that  2 button. a PLAY button and a FEEDBACK button.
-There is an image that act as a background drop to give it a nice look. 
+There is an image that act as a background drop to give it a nice look.
 The colours and the font I chose are very light and comfortable to the eyes and clear as well.
 
 Start Page
@@ -61,6 +61,7 @@ I also included required on the form that will highlight ( fill out this field )
 Test of Responsiveness
 
 Site tested on the amI.responsive for responsiveness (<http://ami.responsivedesign.is/#/>)
+<https://github.com/lishamhlanga/irish-counties-QuizApp/blob/5dbebe29f3b9d836f9b1fa6748df5a72f9c4d132/assets/images/am%20-i-responsive.png>
 
 Validator Testing
 
@@ -77,7 +78,6 @@ Feedback.css passed with no warnings
 Index.css passed with no warnings.
 
 Deployment
-
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
@@ -118,4 +118,3 @@ I encountered a challenge of resetting the game to  restart and the scores to re
 Currently all was working fine and I included an image as a background , its not showing anymore might have to do with relative and absolute links . It worked before then i changed few things around and last minute it just stopped.
 
 Hope I will be able to sort it before I submit the project.
-
