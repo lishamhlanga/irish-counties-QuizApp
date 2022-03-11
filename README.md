@@ -61,7 +61,7 @@ I also included required on the form that will highlight ( fill out this field )
 Test of Responsiveness
 
 Site tested on the amI.responsive for responsiveness (<http://ami.responsivedesign.is/#/>)
-<https://github.com/lishamhlanga/irish-counties-QuizApp/blob/5dbebe29f3b9d836f9b1fa6748df5a72f9c4d132/assets/images/am%20-i-responsive.png>
+<https://github.com/lishamhlanga/irish-counties-QuizApp/blob/5dbebe29f3b9d836f9b1fa6748df5a72f9c4d132/assets/images/am%20-i-responsive.pnghttps://github.com/lishamhlanga/irish-counties-QuizApp/blob/538d5d1b585c7792ed5c65b6c5904c75e9429ad6/assets/images/gthub-deploy.pnghttps://github.com/lishamhlanga/irish-counties-QuizApp/blob/538d5d1b585c7792ed5c65b6c5904c75e9429ad6/assets/images/gthub-deploy.png>
 
 Validator Testing
 
